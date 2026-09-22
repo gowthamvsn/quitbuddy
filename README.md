@@ -1,13 +1,13 @@
-# ReBoot — AI Nicotine Quit Coach
+# ReBoot: AI Nicotine Quit Coach
 
 ReBoot is a browser-based coaching app that helps teens quit nicotine through voice conversation with an animated AI avatar. It combines speech recognition, a talking avatar, and a language model to walk users through cravings, track streaks, and reinforce healthy replacement habits.
 
 ## Features
 
-- **Voice conversation** — users speak to the app and hear responses from a synthesized avatar, powered by Azure Speech (speech-to-text, text-to-speech, and avatar video).
-- **Coaching logic** — a small dialogue state machine tracks where the user is (intro, craving, lapse, win) and adjusts the avatar's responses accordingly.
-- **Grounded responses** — a lightweight retrieval layer pulls short, factual coping tips into the model's replies instead of relying on the model alone.
-- **Safety redirect** — messages that touch on self-harm, medication, or therapy are intercepted and redirected to a fixed safety message rather than passed to the model.
+- **Voice conversation**: users speak to the app and hear responses from a synthesized avatar, powered by Azure Speech (speech-to-text, text-to-speech, and avatar video).
+- **Coaching logic**: a small dialogue state machine tracks where the user is (intro, craving, lapse, win) and adjusts the avatar's responses accordingly.
+- **Grounded responses**: a lightweight retrieval layer pulls short, factual coping tips into the model's replies instead of relying on the model alone.
+- **Safety redirect**: messages that touch on self-harm, medication, or therapy are intercepted and redirected to a fixed safety message rather than passed to the model.
 - **Craving drills** — a guided box-breathing exercise appears automatically when the app detects a craving.
 - **Streaks and progress** — successful check-ins build a visible day streak, with a confetti celebration on milestones.
 - **Accounts and history** — users register and log in, with conversation history and preferences (avatar, speech speed) persisted per user.
